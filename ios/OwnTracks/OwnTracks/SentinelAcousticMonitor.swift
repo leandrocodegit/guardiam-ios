@@ -53,6 +53,10 @@ struct DistressPhrase {
         return shared
     }
     
+    @objc class var isMonitoring: Bool {
+        return shared.isMonitoring
+    }
+    
     @objc class func startMonitoring() {
         shared.startMonitoring()
     }

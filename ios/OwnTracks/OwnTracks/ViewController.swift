@@ -615,7 +615,7 @@ import ActivityKit
     private func updateSentinelUIState() {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
-            let isMonitoring = SentinelAcousticMonitor.isMonitoring
+            let isMonitoring = SentinelAcousticMonitor.shared.isMonitoring
             let state = SentinelAcousticMonitor.shared.currentState
             
             if isMonitoring {
@@ -684,7 +684,7 @@ import ActivityKit
     }
 
     @objc private func sentinelButtonTapped() {
-        if SentinelAcousticMonitor.isMonitoring {
+        if SentinelAcousticMonitor.shared.isMonitoring {
             let impact = UIImpactFeedbackGenerator(style: .light)
             impact.impactOccurred()
             SentinelAcousticMonitor.stopMonitoring()
