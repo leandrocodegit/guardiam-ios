@@ -1,0 +1,26 @@
+{
+  "Simulator Target Bundle": "br.guardiam.com",
+  "type": "transition",
+  "way": "Casa da Vovó",
+  "event": "enter",
+  "devices": ["iPhone do João", "Carro da Maria"],
+  "activityType": "transition",
+  "aps": {
+    "timestamp": 1770000000,
+    "event": "start",
+    "content-available": 1,
+    "content-state": {
+      "address": "Localização atual",
+      "way": "Casa da Vovó",
+      "event": "enter",
+      "devices": ["iPhone do João", "Carro da Maria"],
+      "activityType": "transition",
+      "nickname": "Bipe.me",
+      "status": "transition"
+    },
+    "attributes-type": "BipeAlertActivityAttributes",
+    "attributes": {
+      "alertId": "123456"
+    }
+  }
+}

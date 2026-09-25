@@ -1,0 +1,475 @@
+﻿/* name of an unknown or hidden region */
+"a region" = "a region";
+/* reverseGeocodeLocation error */
+"Address resolver failed" = "Address resolver failed";
+/* Headline in addressbook related error messages */
+"Addressbook Access" = "Addressbook Access";
+/* Location Manager error message */
+"App is not allowed to use location services" = "App is not allowed to use location services";
+/* Location Manager error message */
+"App is not allowed to use location services in background" = "App is not allowed to use location services in background";
+/* Location Manager error message */
+"App is not allowed to use location services yet" = "App is not allowed to use location services yet";
+/* Location Manager error message */
+"App use of location services is restricted" = "App use of location services is restricted";
+/* Location Manager error message */
+"App use of location services is unclear" = "App use of location services is unclear";
+/* Display after processing beacon QR code */
+"Beacon QR successfully processed" = "Beacon QR successfully processed";
+/* Cancel button title */
+"Cancel" = "Cancel";
+/* Clipboard */
+"Clipboard" = "Clipboard";
+/* description connection closed state */
+"closed" = "closed";
+/* description connection closing state */
+"closing" = "closing";
+/* description connection connected state */
+"connected" = "connected";
+/* description connection connected state */
+"connecting" = "connecting";
+/* Continue button title */
+"Continue" = "Continue";
+/* content of an alert message regarding circular region */
+"created at center of map" = "created at center of map";
+/* reverseGeocodeLocation text */
+"due to rate limit or off-line" = "due to rate limit or off-line";
+/* Display when entering region (region name follows) */
+"Entering" = "Entering";
+/* friend enters region verb */
+"enters" = "enters";
+/* description connection error state */
+"error" = "error";
+/* Display when file processing fails */
+"Error processing file" = "Error processing file";
+/* Export */
+"Export" = "Export";
+/* Display when file processing succeeds (filename follows) */
+"File" = "File";
+/* Display after trying to open a file */
+"file open error" = "file open error";
+/* Fly */
+"Fly" = "Fly";
+/* Alert message header for friend's messages */
+"Friend" = "Friend";
+/* CNAuthorizationStatusDenied */
+"has been denied by user. If you allow OwnTracks to access your contacts, you can link your devices to contacts. OwnTracks will then display the contact name and image instead of the device Id. No information of your address book will be uploaded to any server. Go to Settings/Privacy/Contacts to change" = "has been denied by user. If you allow OwnTracks to access your contacts, you can link your devices to contacts. OwnTracks will then display the contact name and image instead of the device Id. No information of your address book will be uploaded to any server. Go to Settings/Privacy/Contacts to change";
+/* CNAuthorizationStatusRestricted */
+"has been restricted, possibly due to restrictions such as parental controls." = "has been restricted, possibly due to restrictions such as parental controls.";
+/* Hyb */
+"Hyb" = "Hyb";
+/* HybFly */
+"HybFly" = "HybFly";
+/* description connection idle state */
+"idle" = "idle";
+/* Warning displayed if location is inaccurate or old */
+"Inaccurate or old location information" = "Inaccurate or old location information";
+/* certificate error message */
+"incorrect file or passphrase" = "incorrect file or passphrase";
+/* Display for incorrect inline config */
+"Inline Configuration incorrect" = "Inline Configuration incorrect";
+/* Display for incorrectly encoded inline config */
+"Inline Configuration incorrectly encoded" = "Inline Configuration incorrectly encoded";
+/* Display for config without parameters */
+"Inline Configuration missing parameters" = "Inline Configuration missing parameters";
+/* Display after processing inline config */
+"Inline Configuration successfully processed" = "Inline Configuration successfully processed";
+/* Display when leaving region (region name follows) */
+"Leaving" = "Leaving";
+/* friend leaves region verb */
+"leaves" = "leaves";
+/* Header of an alert message regarding a location */
+"Location" = "Location";
+/* Location copied to clipboard */
+"Location copied to clipboard" = "Location copied to clipboard";
+/* Topic copied to clipboard */
+"Topic copied to clipboard" = "Topic copied to clipboard";
+/* indicates a locked configuration */
+"locked" = "locked";
+/* Header of an alert message regarding missing setup */
+"Setup" = "Setup";
+/* Text explaining the Setup */
+"You need to setup your own OwnTracks server and edit your configuration for full privacy protection. Detailed info on https://owntracks.org/booklet" = "You need to setup your own OwnTracks server and edit your configuration for full privacy protection. Detailed info on https://owntracks.org/booklet";
+/* Manual */
+"Manual" = "Manual";
+/* Alert header for connection change warning */
+"Connection change" = "Connection change";
+/* Move */
+"Move" = "Move";
+/* Mute */
+"Mute" = "Mute";
+/* dummy for missing content */
+"no content available" = "no content available";
+/* No location available indication */
+"No location available" = "No location available";
+/* No location recorded indication */
+"No location recorded" = "No location recorded";
+/* Display after trying to process a file *//* No pressure available */
+"No pressure available" = "No pressure available";
+"no url specified" = "no url specified";
+/* Alert message header for notification messages */
+"Notification" = "Notification";
+/* temporary display while opening URL */
+"opening URL" = "opening URL";
+/* Alert content for connection change warning */
+"Please be aware your stored waypoints and locations will be deleted on this device for privacy reasons. Please backup before." = "Please be aware your stored waypoints and locations will be deleted on this device for privacy reasons. Please backup before.";
+/* Alert header regarding protocol input */
+"Protocol invalid" = "Protocol invalid";
+/* Alert content regarding protocol input */
+"Protocol may be 3 for MQTT V3.1 or 4 for MQTT V3.1.1 or 5 for MQTT V5" = "Protocol may be 3 for MQTT V3.1 or 4 for MQTT V3.1.1 or 5 for MQTT V5";
+/* content of an alert message regarding user publish */
+"publish queued on user request" = "publish queued on user request";
+/* Quiet */
+"Quiet" = "Quiet";
+/* Header of an alert message regarding circular region */
+"Region" = "Region";
+/* temporary display while resolving address */
+"resolving..." = "resolving...";
+/* Sat */
+"Sat" = "Sat";
+/* Settings screen title */
+"Settings" = "Settings";
+/* Significant */
+"Significant" = "Significant";
+/* Std */
+"Std" = "Std";
+/* Display when file processing succeeds */
+"successfully processed" = "successfully processed";
+/* Table is empty */
+"Table is empty" = "Table is empty";
+/* Heading for certificate error message */
+"TLS Client Certificate" = "TLS Client Certificate";
+/* Warning displayed if necessary settings are missing */
+"To publish your location userID and deviceID must be set" = "To publish your location userID and deviceID must be set";
+/* Alert header regarding TrackerID input */
+"TrackerID invalid" = "TrackerID invalid";
+/* Alert content regarding TrackerID input */
+"TrackerID may be empty or up to 2 characters long" = "TrackerID may be empty or up to 2 characters long";
+/* Alert content regarding TrackerID input */
+"TrackerID may contain alphanumeric characters only" = "TrackerID may contain alphanumeric characters only";
+/* Display after entering an unknown scheme in url */
+"unknown scheme in url" = "unknown scheme in url";
+/* description connection unknown state */
+"unknown state" = "unknown state";
+/* Display for unknown url path */
+"unknown url path" = "unknown url path";
+/* webView didFailLoadWithError display */
+"webView didFailLoadWithError" = "webView didFailLoadWithError";
+/* You cannot use background fetch */
+"You cannot use background fetch" = "You cannot use background fetch";
+/* You disabled background fetch */
+"You disabled background fetch" = "You disabled background fetch";
+/* MQTT Description Text */
+"Setup your own OwnTracks server for full privacy protection. More Info on https://owntracks.org/booklet" = "Setup your own OwnTracks server for full privacy protection. More Info on https://owntracks.org/booklet";
+/* HTTP Description Text */
+"Similar to MQTT mode, except data transmission uses HTTP, not MQTT." = "Similar to MQTT mode, except data transmission uses HTTP, not MQTT.";
+/* Please Note Text */
+"When switching between modes, all OwnTracks data will be deleted for privacy reasons." = "When switching between modes, all OwnTracks data will be deleted for privacy reasons.";
+/* Title map interaction */
+"Map Interaction" = "Map Interaction";
+/* Message map interaction */
+"Do you want the map to allow interaction? If you choose yes, the map provider may analyze your tile requests" = "Do you want the map to allow interaction? If you choose yes, the map provider may analyze your tile requests";
+/* Address resolver disabled */
+"Address resolver disabled" = "Address resolver disabled";
+/* Title Revgeo */
+"Reverse Geocoding Address Resolution" = "Reverse Geocoding Address Resolution";
+/* Message Revgeo */
+"Do you want to resolve adresses? If you choose yes, the geocoding provider may analyze your requests" = "Do you want to resolve adresses? If you choose yes, the geocoding provider may analyze your requests";
+/* Yes button title */
+"Yes" = "Yes";
+/* No button title */
+"No" = "No";
+/* Alert message header for Request Response */
+"Response" = "Response";
+/* URL copied to Clipboard */
+"URL copied to Clipboard" = "URL copied to Clipboard";
+/* No or empty tour list received from backend */
+"No or empty tour list received from backend" = "No or empty tour list received from backend";
+/* Fetching tour list from backend */
+"Fetching tour list from backend" = "Fetching tour list from backend";
+/* Header of an alert message regarding a card */
+"Card" = "Card";
+/* content of an alert message regarding card */
+"set and sent to backend" = "set and sent to backend";
+/* Tours list header */
+"Tours" = "Tours";
+/* Tours status header */
+"Tours Status" = "Tours Status";
+/* Tour list received */
+"Tour list received" = "Tour list received";
+/* Requesting tour list */
+"Requesting tour list" = "Requesting tour list";
+/* Tour list request timed out */
+"Tour list request timed out" = "Tour list request timed out";
+/* Tour created */
+"Tour created" = "Tour created";
+/* Requesting tour */
+"Requesting tour" = "Requesting tour";
+/* Tour request timed out */
+"Tour request timed out" = "Tour request timed out";
+/* Tour deleted */
+"Tour deleted" = "Tour deleted";
+/* Alert message header for copy */
+"Copied" = "Copied";
+/* Send location now */
+"Send location now" = "Send location now";
+/* Set POI button */
+"Set POI" = "Set POI";
+/* Set POI with image button */
+"Set POI with image" = "Set POI with image";
+/* Set tag button */
+"Set tag" = "Set tag";
+/* Set POI title */
+"Set POI" = "Set POI";
+/* Set Tag title */
+"Set Tag" = "Set Tag";
+/* Send button title*/
+"Send" = "Send";
+/* Remove button title*/
+"Remove" = "Remove";
+/* Shortcut Switch to Move Monitoring Monitoring Mode */
+"Switch to Move Monitoring Mode" = "Switch to Move Monitoring Mode";
+/* Shortcut Switch to Significant Changes Monitoring Mode */
+"Switch to Significant Changes Monitoring Mode" = "Switch to Significant Changes Monitoring Mode";
+/* Shortcut Switch to Manual Monitoring Mode */
+"Switch to Manual Monitoring Mode" = "Switch to Manual Monitoring Mode";
+/* Shortcut Switch to Quiet Monitoring Mode */
+"Switch to Quiet Monitoring Mode" = "Switch to Quiet Monitoring Mode";
+/* Battery status unkown */
+"unknown" = "unknown";
+/* Battery status unplugged */
+"unplugged" = "unplugged";
+/* Battery status charging */
+"charging" = "charging";
+/* Battery status full */
+"full" = "full";
+/* "Please keep OwnTracks running to ensure the desired functionality" */
+"Please keep Bipe.me running to ensure the desired functionality" = "Por favor, mantenga Bipe.me en ejecución para garantizar el funcionamiento deseado.";
+"Please keep OwnTracks running to ensure the desired functionality" = "Por favor, mantenga Bipe.me en ejecución para garantizar el funcionamiento deseado.";
+/* Permissions Screen */
+"Permissões" = "Permisos";
+"Fechar" = "Cerrar";
+"Status das Permissões" = "Estado de Permisos";
+"Confira e gerencie as permissões necessárias para o funcionamento completo do Bipe.me no seu iPhone." = "Consulte y administre los permisos necesarios para el funcionamiento completo de Bipe.me en su iPhone.";
+"Abrir Configurações do iOS" = "Abrir Configuración de iOS";
+"1. GPS e Localização" = "1. GPS y Ubicación";
+"Necessário para obter a posição exata do seu dispositivo em tempo real e habilitar os recursos de rastreamento do Bipe.me." = "Necesario para obtener la posición exacta de su dispositivo en tiempo real y activar el seguimiento de Bipe.me.";
+"2. Localização em Segundo Plano" = "2. Ubicación en Segundo Plano";
+"Permite que o aplicativo continue enviando a localização com precisão mesmo quando estiver minimizado ou com a tela bloqueada." = "Permite que la aplicación continúe enviando la ubicación de forma precisa incluso cuando esté minimizada o bloqueada.";
+"3. Câmera" = "3. Cámara";
+"Necessário para tirar fotos do perfil/veículo e realizar a leitura de QR codes para associação rápida." = "Necesario para tomar fotos de perfil/vehículo y escanear códigos QR para una vinculación rápida.";
+"4. Notificações Push" = "4. Notificaciones Push";
+"Permite que você receba alertas de emergência, confirmações de rotinas e avisos importantes do sistema em tempo real." = "Le permite recibir alertas de emergencia, confirmaciones de rutinas y avisos importantes del sistema en tiempo real.";
+"GPS Desativado" = "GPS Desactivado";
+"Ativar nas Configurações" = "Activar en Ajustes";
+"Permitido" = "Permitido";
+"Não Configurado" = "No Configurado";
+"Permitir Acesso" = "Permitir Acceso";
+"Negado" = "Denegado";
+"Abrir Configurações" = "Abrir Ajustes";
+"Permitido Sempre" = "Permitido Siempre";
+"Apenas em Uso" = "Solo en Uso";
+"Alterar para 'Sempre'" = "Cambiar a 'Siempre'";
+"Permitir 'Sempre'" = "Permitir 'Siempre'";
+"Solicitar Permissão" = "Solicitar Permiso";
+"Ativado" = "Activado";
+"Opcional" = "Opcional";
+"Ativar Notificações" = "Activar Notificaciones";
+"Desativado (Opcional)" = "Desactivado (Opcional)";
+/* Login Screen */
+"Abrindo autenticação…" = "Abriendo autenticación…";
+"Configurando dispositivo…" = "Configurando dispositivo…";
+"Erro desconhecido" = "Error desconocido";
+"Falha no login" = "Fallo de inicio de sesión";
+// Live Activities & Widgets
+"SAIU DE ÁREA DE RISCO" = "SALIÓ DE ZONA DE RIESGO";
+"ÁREA DE RISCO" = "ZONA DE RIESGO";
+"ENTROU EM ÁREA DE RISCO" = "ENTRÓ EN ZONA DE RIESGO";
+"SAIU DA REGIÃO" = "SALIÓ DE LA REGIÓN";
+"ATIVO" = "ACTIVO";
+"ENTROU NA REGIÃO" = "ENTRÓ EN LA REGIÓN";
+"ZONA DE MONITORAMENTO" = "ZONA DE MONITOREO";
+"PERÍMETRO ATIVO" = "PERÍMETRO ACTIVO";
+"DISPOSITIVOS PRÓXIMOS" = "DISPOSITIVOS EN ZONA";
+"dispositivo" = "dispositivo";
+"dispositivos" = "dispositivos";
+"EMERGÊNCIA" = "EMERGENCIA";
+"CUIDADO" = "CUIDADO";
+"ZONA PROTEGIDA" = "ZONA PROTEGIDA";
+"ATENÇÃO" = "ATENCIÓN";
+"Último evento: %@" = "Último evento: %@";
+"Mais próximo" = "Más cercano";
+"CONFIRMAR BIPE" = "CONFIRMAR BEEP";
+"Alerta de Distância" = "Alerta de Distancia";
+"CONFIRMAR RECEBIMENTO" = "CONFIRMAR";
+"SAIU" = "SALIÓ";
+"ENTROU" = "ENTRÓ";
+"APROXIMAR" = "ACERCÁNDOSE";
+"AFASTAR" = "ALEJÁNDOSE";
+"APROX" = "ACERC";
+"AFAST" = "ALEJ";
+"Monitorando em tempo real" = "Monitoreo en tiempo real";
+"SE MOVEU" = "EN MOVIMIENTO";
+"MOVIMENTOU EM ÁREA DE RISCO" = "SE MOVIÓ EN ZONA DE RIESGO";
+"MOVEU" = "SE MOVIÓ";
+"Dentro de uma regi�o protegida" = "Dentro de una regi�n protegida";
+"Dentro de �rea de risco" = "Dentro de zona de riesgo";
+"Aguardando publica��o" = "Esperando actualizaci�n";
+"Monitorando em tempo real" = "Monitoreando en tiempo real";
+"ZONA DE MONITORAMENTO" = "ZONA DE MONITOREO";
+"�ltimo evento:" = "�ltimo evento:";
+"CONFIRMAR BIPE" = "CONFIRMAR BIP";
+"CONFIRMAR RECEBIMENTO" = "CONFIRMAR RECEPCI�N";
+"ROTINA" = "RUTINA";
+"ATIVO" = "ACTIVO";
+"Alerta de Dist�ncia" = "Alerta de Distancia";
+"Zona Monitorada" = "Zona Monitoreada";
+"Rotina n�o atendida" = "Rutina no cumplida";
+"Dist�ncia:" = "Distancia:";
+"Regi�o Monitorada" = "Regi�n Monitoreada";
+"Casa da Vov�" = "Casa de la Abuela";
+/* Modo Sentinela */
+"Modo Sentinela" = "Modo Centinela";
+"Monitoramento acústico preventivo on-device. Identifica ruídos anormais de impacto ou emergência sem gravar ou transmitir áudio." = "Monitoreo acústico preventivo en el dispositivo. Detecta ruidos anormales de impacto o emergencia sin grabar ni transmitir audio.";
+"EM RISCO IMINENTE?" = "¿EN PELIGRO INMINENTE?";
+"Se você estiver sofrendo perigo ou ameaça imediata, NÃO aguarde o monitoramento acústico. Acione imediatamente os serviços de emergência locais de sua região ou use o SOS de Emergência do iPhone." = "Si está sufriendo peligro o amenaza inmediata, NO espere el monitoreo acústico. Llame de inmediato a los servicios de emergencia locales de su región o use el SOS de Emergencia del iPhone.";
+"Monitoramento Inativo" = "Monitoreo Inactivo";
+"Nível Acústico em Tempo Real" = "Nivel Acústico en Tiempo Real";
+"Limiar de Gatilho: %.0f dB" = "Umbral de Disparo: %.0f dB";
+"🚨 DETECÇÃO ATIVADA" = "🚨 DETECCIÓN ACTIVADA";
+"Alerta de emergência e localização serão enviados aos contatos se não houver cancelamento." = "La alerta de emergencia y ubicación se enviarán a los contactos si no se cancela.";
+"Falso Alarme (Cancelar)" = "Falsa Alarma (Cancelar)";
+"Detecção Inteligente On-Device" = "Detección Inteligente en Dispositivo";
+"100% no Aparelho" = "100% en el Dispositivo";
+"Rede neural local que analisa o espectro sonoro e fonemas em tempo real sem transmitir conversas:" = "Red neuronal local que analiza el espectro sonoro y fonemas en tiempo real sin transmitir conversaciones:";
+"Frases de Alerta Personalizadas" = "Frases de Alerta Personalizadas";
+"Cadastre até 3 frases ou palavras-código personalizadas que ativarão o Sentinela se ouvidas pelo celular." = "Registre hasta 3 frases o palabras clave personalizadas que activarán a Centinela si son escuchadas por el teléfono.";
+"+ Adicionar Frase Personalizada" = "+ Agregar Frase Personalizada";
+"Contatos de Confiança" = "Contactos de Confianza";
+"Cadastre até 3 contatos para serem notificados com suas coordenadas em caso de incidente." = "Registre hasta 3 contactos para ser notificados con sus coordenadas en caso de incidente.";
+"+ Adicionar Contato de Confiança" = "+ Agregar Contacto de Confianza";
+"Orientações de Uso Consciente" = "Recomendaciones de Uso Consciente";
+"Momento Oportuno e Silencioso" = "Momento Oportuno y Silencioso";
+"Ative preferencialmente ao dormir, repousar ou em locais calmos. Evite locais com muito barulho (TV alta, festas, trânsito intenso) para não gerar falsos disparos com ruídos comuns do dia a dia." = "Active preferentemente al dormir, descansar o en lugares tranquilos. Evite lugares con mucho ruido (TV alta, fiestas, tráfico intenso) para no generar falsos disparos con ruidos cotidianos.";
+"Consumo de Bateria & Salvaguarda" = "Consumo de Batería y Protección";
+"A escuta contínua pelo microfone consome energia adicional. Recomendamos manter o iPhone conectado à tomada (especialmente à noite). O aplicativo pausa o monitoramento automaticamente se a bateria atingir 15% desconectada." = "La escucha continua por el micrófono consume energía adicional. Recomendamos mantener el iPhone conectado (especialmente por la noche). El monitoreo se pausa automáticamente si la batería desciende al 15% desconectada.";
+"Detectar Impactos" = "Detectar Impactos";
+"Desative para usar em ambientes barulhentos. Ignora picos de volume e estilhaços físicos, mantendo ativas palavras de socorro e gritos." = "Desactive para usar en ambientes ruidosos. Ignora picos de volumen y vidrios rotos, manteniendo activas palabras de auxilio y gritos.";
+"Sensibilidade do Limiar (dB)" = "Sensibilidad del Umbral (dB)";
+"Zero Cloud Audio: Toda a análise acústica ocorre 100% na memória RAM local do aparelho. Nenhum áudio bruto é gravado em disco ou transmitido para servidores." = "Zero Cloud Audio: Todo el análisis acústico ocurre 100% en la memoria RAM local del dispositivo. Ningún audio se graba en disco ni se transmite a servidores.";
+"Fechar" = "Cerrar";
+"Impactos Desativados (Apenas Voz & Gritos)" = "Impactos Desactivados (Solo Voz y Gritos)";
+"Sem telefone" = "Sin teléfono";
+"Limite Atingido" = "Límite Alcanzado";
+"Você já cadastrou o número máximo de 3 contatos de confiança." = "Ya ha registrado el número máximo de 3 contactos de confianza.";
+"Adicionar Contato de Confiança" = "Agregar Contacto de Confianza";
+"Como deseja adicionar o contato de emergência?" = "¿Cómo desea agregar el contacto de emergencia?";
+"Escolher da Agenda do iPhone" = "Elegir de la Agenda del iPhone";
+"Digitar Nome e Telefone" = "Escribir Nombre y Teléfono";
+"Cancelar" = "Cancelar";
+"Novo Contato de Confiança" = "Nuevo Contacto de Confianza";
+"Informe o nome e o número de telefone com DDD." = "Ingrese el nombre y número de teléfono con código de área.";
+"Nome do Contato" = "Nombre del Contacto";
+"Telefone (com DDD)" = "Teléfono";
+"Adicionar" = "Agregar";
+"Escuta Passiva Ativa" = "Escucha Pasiva Activa";
+"Atenção: Detecção Ativada!" = "¡Atención: Detección Activada!";
+"Ruído de emergência detectado" = "Ruido de emergencia detectado";
+"Alerta de Emergência Disparado" = "Alerta de Emergencia Emitida";
+"Pausado: Bateria Crítica (<= 15%)" = "Pausado: Batería Crítica (<= 15%)";
+"Permissão de Microfone Negada" = "Permiso de Micrófono Denegado";
+"Falha ao Iniciar Microfone" = "Error al Iniciar el Micrófono";
+"Vidro Quebrando & Impactos" = "Rotura de Vidrios e Impactos";
+"Classifica estilhaçamento de janelas, garrafas e quebra de portas." = "Clasifica rotura de ventanas, botellas y fractura de puertas.";
+"Gritos & Pânico Acústico" = "Gritos y Pánico Acústico";
+"Classifica berros, gritos de socorro agudos e gemidos de agressão." = "Clasifica chillidos, gritos de auxilio agudos y quejidos de agresión.";
+"Frases de Socorro (PT, EN, ES)" = "Frases de Auxilio (PT, EN, ES)";
+"\"Não me bate\", \"Socorro\", \"Me ajuda\", \"Help me\", \"No me pegues\"." = "\"No me pegues\", \"Socorro\", \"Ayúdame\", \"Don't hit me\", \"Help me\".";
+"Nenhuma frase personalizada cadastrada ainda." = "Ninguna frase personalizada registrada todavía.";
+"Você já cadastrou o número máximo de 3 frases personalizadas." = "Ya ha registrado el número máximo de 3 frases personalizadas.";
+"Nova Frase de Alerta" = "Nueva Frase de Alerta";
+"Digite uma palavra-código ou frase de emergência (ex: 'socorro amigos', 'código vermelho')." = "Escriba una palabra clave o frase de emergencia (ej: 'auxilio amigos', 'código rojo').";
+"Ex: não me machuca, socorro" = "Ej: no me lastimes, socorro";
+"Salvar" = "Guardar";
+"Contato" = "Contacto";
+"Ativar Modo Sentinela" = "Activar Modo Centinela";
+"Leia com atenção antes de iniciar o monitoramento:" = "Lea con atención antes de iniciar el monitoreo:";
+"🚨 ESTÁ EM RISCO IMINENTE?" = "🚨 ¿ESTÁ EN PELIGRO INMINENTE?";
+"Se você estiver sofrendo perigo ou ameaça imediata, NÃO aguarde o monitoramento acústico. Acione imediatamente as autoridades locais ou utilize o recurso SOS de Emergência do iPhone." = "Si está sufriendo peligro o amenaza inmediata, NO espere el monitoreo acústico. Contacte a las autoridades locales de inmediato o use la función SOS de Emergencia del iPhone.";
+"🤫 Ambiente Oportuno e Silencioso" = "🤫 Ambiente Oportuno y Silencioso";
+"Ative preferencialmente ao dormir, repousar ou em locais calmos. Ambientes barulhentos (TV alta, festas, trânsito intenso) provocam falsos disparos acústicos." = "Active preferentemente al dormir, descansar o en lugares calmos. Ambientes ruidosos (TV alta, fiestas, tráfico intenso) provocan falsas alarmas acústicas.";
+"🔋 Consumo de Bateria & Salvaguarda" = "🔋 Consumo de Batería y Protección";
+"A escuta contínua pelo microfone consome bateria. Recomendamos manter o aparelho no carregador. O monitoramento desliga sozinho se a bateria atingir 15% desconectada." = "La escucha continua por el micrófono consume batería. Recomendamos mantener el dispositivo enchufado. El monitoreo se detiene automáticamente si la batería desciende al 15% desconectada.";
+"Compreendi e Quero Ativar" = "Entendido, Deseo Activar";
+"Frase personalizada detectada: \"%@\"" = "Frase personalizada detectada: \"%@\"";
+"Frase de socorro detectada (%@): \"%@\"" = "Frase de auxilio detectada (%@): \"%@\"";
+"Limiar acústico excedido: %.0f dB" = "Umbral acústico superado: %.0f dB";
+"Vidro quebrando detectado (certeza: %.0f%%)" = "Rotura de vidrio detectada (certeza: %.0f%%)";
+"Grito ou pedido de pânico detectado (certeza: %.0f%%)" = "Grito o pedido de pánico detectado (certeza: %.0f%%)";
+ " P e r f i l   V o c a l   &   V o z e s   E x t e r n a s "   =   " P e r f i l   V o c a l   y   V o c e s   E x t e r n a s " ; 
+ " N � o   C a l i b r a d a "   =   " N o   C a l i b r a d a " ; 
+ " C a l i b r e   a   f r e q u � n c i a   f u n d a m e n t a l   d a   s u a   v o z   ( F 0   P i t c h )   p a r a   i d e n t i f i c a r   q u a n d o   u m a   v o z   d i f e r e n t e   o u   e x t e r n a   e s t i v e r   f a l a n d o   n o   a m b i e n t e . "   =   " C a l i b r e   l a   f r e c u e n c i a   f u n d a m e n t a l   d e   s u   v o z   ( F 0   P i t c h )   p a r a   i d e n t i f i c a r   c u � n d o   h a b l a   u n a   v o z   d i f e r e n t e   o   e x t e r n a   e n   e l   e n t o r n o . " ; 
+ " C a l i b r a r   A s s i n a t u r a   V o c a l   ( 4 . 5 s ) "   =   " C a l i b r a r   F i r m a   V o c a l   ( 4 . 5 s ) " ; 
+ " R e c a l i b r a r   V o z   ( 4 . 5 s ) "   =   " R e c a l i b r a r   V o z   ( 4 . 5 s ) " ; 
+ " A l e r t a   d e   V o z   E x t e r n a   /   D e s c o n h e c i d a "   =   " A l e r t a   d e   V o z   E x t e r n a   /   D e s c o n o c i d a " ; 
+ " D i s p a r a   e m e r g � n c i a   s e   u m a   v o z   d e   o u t r a   p e s s o a   f o r   d e t e c t a d a   c o n t i n u a d a m e n t e . "   =   " A c t i v a   l a   e m e r g e n c i a   s i   s e   d e t e c t a   d e   f o r m a   c o n t i n u a   l a   v o z   d e   o t r a   p e r s o n a . " ; 
+ " V o z   N � o   C a l i b r a d a "   =   " V o z   N o   C a l i b r a d a " ; 
+ " P o r   f a v o r ,   r e a l i z e   a   c a l i b r a � � o   d a   s u a   a s s i n a t u r a   v o c a l   a n t e s   d e   a t i v a r   o   a l e r t a   d e   v o z e s   e x t e r n a s . "   =   " P o r   f a v o r ,   r e a l i c e   l a   c a l i b r a c i � n   d e   s u   f i r m a   v o c a l   a n t e s   d e   a c t i v a r   l a   a l e r t a   d e   v o c e s   e x t e r n a s . " ; 
+ " C a l i b r a r   A g o r a "   =   " C a l i b r a r   A h o r a " ; 
+ " C a l i b r a d a   ( % . 0 f - % . 0 f   H z ) "   =   " C a l i b r a d a   ( % . 0 f - % . 0 f   H z ) " ; 
+ " C a l i b r a n d o   S u a   V o z "   =   " C a l i b r a n d o   S u   V o z " ; 
+ " P o r   f a v o r ,   f a l e   n o r m a l m e n t e   ( e x :   c o n t e   d e   1   a   1 0   o u   f a l e   f r a s e s   d o   d i a   a   d i a )   p a r a   q u e   o   S e n t i n e l a   a p r e n d a   s e u   t o m   d e   v o z   ( p i t c h   b a s e l i n e ) . "   =   " P o r   f a v o r ,   h a b l e   n o r m a l m e n t e   ( e j :   c u e n t e   d e l   1   a l   1 0   o   p r o n u n c i e   f r a s e s   c o t i d i a n a s )   p a r a   q u e   S e n t i n e l a   a p r e n d a   s u   t o n o   d e   v o z   ( p i t c h   b a s e l i n e ) . " ; 
+ " O u v i n d o   t o m   d e   v o z . . .   % d % % "   =   " E s c u c h a n d o   t o n o   d e   v o z . . .   % d % % " ; 
+ " N � o   f o i   p o s s � v e l   c a p t a r   a   v o z   c o m   c l a r e z a .   F a l e   e m   t o m   n o r m a l   e m   u m   a m b i e n t e   q u i e t o   e   t e n t e   n o v a m e n t e . "   =   " N o   s e   p u d o   c a p t a r   l a   v o z   c o n   c l a r i d a d .   H a b l e   e n   t o n o   n o r m a l   e n   u n   a m b i e n t e   t r a n q u i l o   e   i n t e n t e   d e   n u e v o . " ; 
+ " A s s i n a t u r a   v o c a l   g r a v a d a   c o m   s u c e s s o !   F a i x a :   % . 0 f   H z   -   % . 0 f   H z "   =   " � F i r m a   v o c a l   g r a b a d a   c o n   � x i t o !   R a n g o :   % . 0 f   H z   -   % . 0 f   H z " ; 
+ " V o z   e x t e r n a / d i f e r e n t e   d e t e c t a d a "   =   " V o z   e x t e r n a / d i f e r e n t e   d e t e c t a d a " ; 
+ 
+ " G a t i l h o   d e   I m p a c t o s   R e p e t i d o s   ( P e s s o a s   N � o - V e r b a i s ) "   =   " G a t i l l o   d e   I m p a c t o s   R e p e t i d o s   ( P e r s o n a s   N o   V e r b a l e s ) " ; 
+ " E m   m o d o   d e   e s p e r a ,   d i s p a r a   e m e r g � n c i a   a u t o m a t i c a m e n t e   a o   d e t e c t a r   a   q u a n t i d a d e   s e l e c i o n a d a   d e   i m p a c t o s ,   s e m   e x i g i r   c o n f i r m a � � o   v o c a l . "   =   " E n   m o d o   d e   e s p e r a ,   a c t i v a   l a   e m e r g e n c i a   a u t o m � t i c a m e n t e   a l   d e t e c t a r   l a   c a n t i d a d   d e   i m p a c t o s   s e l e c c i o n a d a ,   s i n   r e q u e r i r   c o n f i r m a c i � n   v o c a l . " ; 
+ " 2   I m p a c t o s "   =   " 2   I m p a c t o s " ; 
+ " 3   ( P a d r � o ) "   =   " 3   ( P r e d e t e r m i n a d o ) " ; 
+ " 4   I m p a c t o s "   =   " 4   I m p a c t o s " ; 
+ " 5   I m p a c t o s "   =   " 5   I m p a c t o s " ; 
+ " S e q u � n c i a   d e   % d   i m p a c t o s   e m   a m b i e n t e   s i l e n c i o s o   ( P e s s o a   N � o - V e r b a l   /   E m e r g � n c i a   F � s i c a ) "   =   " S e c u e n c i a   d e   % d   i m p a c t o s   e n   e n t o r n o   s i l e n c i o s o   ( P e r s o n a   N o   V e r b a l   /   E m e r g e n c i a   F � s i c a ) " ; 
+ 
+ " N � o   f o i   p o s s � v e l   c a p t a r   a   v o z   c o m   c l a r e z a .   F a l e   e m   t o m   n o r m a l   e m   u m   a m b i e n t e   t r a n q u i l o   e   t e n t e   n o v a m e n t e . "   =   " N o   s e   p u d o   c a p t a r   l a   v o z   c o n   c l a r i d a d .   H a b l e   e n   t o n o   n o r m a l   e n   u n   a m b i e n t e   t r a n q u i l o   e   i n t e n t e   d e   n u e v o . " ; 
+ " J a n e l a   d e   T e m p o   e m   E s p e r a "   =   " V e n t a n a   d e   T i e m p o   e n   E s p e r a " ; 
+ " T e m p o   l i m i t e   e m   m o d o   d e   a t e n � � o   a g u a r d a n d o   c o n f i r m a � � o   p o r   v o z   o u   n o v o s   i m p a c t o s   a n t e s   d e   c a n c e l a r   o   a l e r t a . "   =   " T i e m p o   l � m i t e   e n   m o d o   d e   a t e n c i � n   e s p e r a n d o   c o n f i r m a c i � n   p o r   v o z   o   n u e v o s   i m p a c t o s   a n t e s   d e   c a n c e l a r   l a   a l e r t a . " ; 
+ " 1 5 s "   =   " 1 5 s " ; 
+ " 3 0 s "   =   " 3 0 s " ; 
+ " 6 0 s   ( P a d r � o ) "   =   " 6 0 s   ( P r e d e t e r m i n a d o ) " ; 
+ " 9 0 s "   =   " 9 0 s " ; 
+ " 1 2 0 s "   =   " 1 2 0 s " ; 
+ 
+"Perfil Vocal & Vozes Externas" = "Perfil Vocal y Voces Externas";
+"Não Calibrada" = "No Calibrada";
+"Calibre a frequência fundamental da sua voz (F0 Pitch) para identificar quando uma voz diferente ou externa estiver falando no ambiente." = "Calibre la frecuencia fundamental de su voz (F0 Pitch) para identificar cuándo habla una voz diferente o externa en el entorno.";
+"Calibrar Assinatura Vocal (4.5s)" = "Calibrar Firma Vocal (4.5s)";
+"Recalibrar Voz (4.5s)" = "Recalibrar Voz (4.5s)";
+"Alerta de Voz Externa / Desconhecida" = "Alerta de Voz Externa / Desconocida";
+"Dispara emergência se uma voz de outra pessoa for detectada continuadamente." = "Activa la emergencia si se detecta de forma continua la voz de otra persona.";
+"Voz Não Calibrada" = "Voz No Calibrada";
+"Por favor, realize a calibração da sua assinatura vocal antes de ativar o alerta de vozes externas." = "Por favor, realice la calibración de su firma vocal antes de activar la alerta de voces externas.";
+"Calibrar Agora" = "Calibrar Ahora";
+"Calibrada (%.0f-%.0f Hz)" = "Calibrada (%.0f-%.0f Hz)";
+"Calibrando Sua Voz" = "Calibrando Su Voz";
+"Por favor, fale normalmente (ex: conte de 1 a 10 ou fale frases do dia a dia) para que o Sentinela aprenda seu tom de voz (pitch baseline)." = "Por favor, hable normalmente (ej: cuente del 1 al 10 o pronuncie frases cotidianas) para que Sentinela aprenda su tono de voz (pitch baseline).";
+"Ouvindo tom de voz... %d%%" = "Escuchando tono de voz... %d%%";
+"Não foi possível captar a voz com clareza. Fale em tom normal em um ambiente tranquilo e tente novamente." = "No se pudo captar la voz con claridad. Hable en tono normal en un ambiente tranquilo e intente de nuevo.";
+"Assinatura vocal gravada com sucesso! Faixa: %.0f Hz - %.0f Hz" = "¡Firma vocal grabada con éxito! Rango: %.0f Hz - %.0f Hz";
+"Voz externa/diferente detectada" = "Voz externa/diferente detectada";
+"Gatilho de Impactos Repetidos (Pessoas Não-Verbais)" = "Gatillo de Impactos Repetidos (Personas No Verbales)";
+"Em modo de espera, dispara emergência automaticamente ao detectar a quantidade selecionada de impactos, sem exigir confirmação vocal." = "En modo de espera, activa la emergencia automáticamente al detectar la cantidad de impactos seleccionada, sin requerir confirmación vocal.";
+"2 Impactos" = "2 Impactos";
+"3 (Padrão)" = "3 (Predeterminado)";
+"4 Impactos" = "4 Impactos";
+"5 Impactos" = "5 Impactos";
+"Sequência de %d impactos em ambiente silencioso (Pessoa Não-Verbal / Emergência Física)" = "Secuencia de %d impactos en entorno silencioso (Persona No Verbal / Emergencia Física)";
+"Janela de Tempo em Espera" = "Ventana de Tiempo en Espera";
+"Tempo limite em modo de atenção aguardando confirmação por voz ou novos impactos antes de cancelar o alerta." = "Tiempo límite en modo de atención esperando confirmación por voz o nuevos impactos antes de cancelar la alerta.";
+"1 min (Padrão)" = "1 min (Predeterminado)";
+"5 min" = "5 min";
+"10 min" = "10 min";
+"20 min" = "20 min";
+"30 min" = "30 min";
+"1 min" = "1 min";

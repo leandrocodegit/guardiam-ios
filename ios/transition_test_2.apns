@@ -1,0 +1,16 @@
+{
+  "Simulator Target Bundle": "br.guardiam.com",
+  "type": "transition",
+  "way": "Casa da Vovó",
+  "event": "exit",
+   "devices": [["abacaxi.png", "bus.svg"]],
+  "activityType": "transition",
+  "aps": {
+    "content-available": 1,
+    "alert": {
+      "title": "Transição de Região",
+      "body": "Saiu da região Casa da Vovó"
+    },
+    "sound": "default"
+  }
+}

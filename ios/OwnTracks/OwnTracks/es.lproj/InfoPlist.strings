@@ -1,0 +1,36 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Bipe.me";
+
+/* Bundle name */
+"CFBundleName" = "Bipe.me";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Bipe.me utiliza su cámara cuando se le solicita para crear una tarjeta.";
+
+/* Privacy - Face ID Usage Description */
+"NSFaceIDUsageDescription" = "Bipe.me utiliza Face ID para autenticar su acceso de forma segura.";
+
+/* Privacy - Contacts Usage Description */
+"NSContactsUsageDescription" = "Si permite que Bipe.me acceda a sus contactos, puede vincular sus dispositivos a los contactos.";
+
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Su ubicación se utiliza para compartirla y registrarla.";
+
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "Su ubicación se utiliza para compartirla y registrarla.";
+
+/* Privacy - Location Usage Description */
+"NSLocationUsageDescription" = "Su ubicación se utiliza para compartirla y registrarla.";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "Su ubicación se utiliza para compartirla y registrarla.";
+
+/* Privacy - Motion Usage Description */
+"NSMotionUsageDescription" = "Bipe.me proporciona su recuento de pasos y distancia recorrida.";
+
+/* Privacy - Microphone Usage Description */
+NSMicrophoneUsageDescription = "El Modo Centinela analiza niveles sonoros en tiempo real para detección preventiva de emergencia. Su privacidad está garantizada: ningún audio se graba, guarda en disco ni se transmite a la nube.";
+
+/* Privacy - Speech Recognition Usage Description */
+NSSpeechRecognitionUsageDescription = "El Modo Centinela analiza comandos de voz y frases de auxilio directamente en el dispositivo (sin envío a la nube) para protección y seguridad preventiva contra la violencia.";
+

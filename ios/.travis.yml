@@ -1,0 +1,5 @@
+language: objective-c
+xcode_workspace: OwnTracks/OwnTracks.xcworkspace
+podfile: OwnTracks/Podfile
+os: osx
+

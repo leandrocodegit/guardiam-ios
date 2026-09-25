@@ -1,0 +1,320 @@
+﻿/* name of an unknown or hidden region */
+"a region" = "一个区域";
+/* Address resolver disabled */
+"Address resolver disabled" = "地址解析器已禁用";
+/* reverseGeocodeLocation error */
+"Address resolver failed" = "地址解析失败";
+/* Headline in addressbook related error messages */
+"Addressbook Access" = "通讯录访问";
+/* Location Manager error message */
+"App is not allowed to use location services" = "应用不允许使用定位服务";
+/* Location Manager error message */
+"App is not allowed to use location services in background" = "应用不允许在后台使用定位服务";
+/* Location Manager error message */
+"App is not allowed to use location services yet" = "应用尚未被允许使用定位服务";
+/* Location Manager error message */
+"App use of location services is restricted" = "应用使用定位服务受限";
+/* Location Manager error message */
+"App use of location services is unclear" = "应用使用定位服务情况不明";
+/* Display after processing beacon QR code */
+"Beacon QR successfully processed" = "信标二维码处理成功";
+/* Cancel button title */
+"Cancel" = "取消";
+/* Header of an alert message regarding a card */
+"Card" = "卡片";
+/* Battery status charging */
+"charging" = "收费";
+/* Choose action title */
+"Choose action" = "选择操作";
+/* Clipboard */
+"Clipboard" = "剪贴板";
+/* description connection closed state */
+"closed" = "已关闭";
+/* description connection closing state */
+"closing" = "正在关闭";
+/* description connection connected state */
+"connected" = "已连接";
+/* description connection connected state */
+"connecting" = "正在连接";
+/* Alert header for connection change warning */
+"Connection change" = "连接更改";
+/* Continue button title */
+"Continue" = "继续";
+/* Alert message header for copy */
+"Copied" = "已复制";
+/* content of an alert message regarding circular region */
+"created at center of map" = "在地图中心创建";
+/* Message map interaction */
+"Do you want the map to allow interaction? If you choose yes, the map provider may analyze your tile requests" = "您是否希望地图允许交互？如果选择是，地图提供商可能会分析您的瓦片请求";
+/* Message Revgeo */
+"Do you want to resolve adresses? If you choose yes, the geocoding provider may analyze your requests" = "您是否希望解析地址？如果选择是，地理编码提供商可能会分析您的请求";
+/* reverseGeocodeLocation text */
+"due to rate limit or off-line" = "由于速率限制或离线";
+/* Display when entering region (region name follows) */
+"Entering" = "进入";
+/* friend enters region verb */
+"enters" = "进入";
+/* description connection error state */
+"error" = "错误";
+/* Display when file processing fails */
+"Error processing file" = "文件处理错误";
+/* Export */
+"Export" = "导出";
+/* Fetching tour list from backend */
+"Fetching tour list from backend" = "正在从后端获取旅程列表";
+/* Display when file processing succeeds (filename follows) */
+"File" = "文件";
+/* Display after trying to open a file */
+"file open error" = "文件打开错误";
+/* Fly */
+"Fly" = "飞行";
+/* Alert message header for friend's messages */
+"Friend" = "朋友";
+/* Battery status full */
+"full" = "满的";
+/* CNAuthorizationStatusDenied */
+"has been denied by user. If you allow OwnTracks to access your contacts, you can link your devices to contacts. OwnTracks will then display the contact name and image instead of the device Id. No information of your address book will be uploaded to any server. Go to Settings/Privacy/Contacts to change" = "已被用户拒绝。如果您允许 OwnTracks 访问您的联系人，您可以将您的设备与联系人关联。OwnTracks 将显示联系人姓名和图像，而不是设备 ID。您的地址簿信息不会上传到任何服务器。请前往“设置/隐私/联系人”进行更改";
+/* CNAuthorizationStatusRestricted */
+"has been restricted, possibly due to restrictions such as parental controls." = "已被限制，可能由于家长控制等限制。";
+/* Hyb */
+"Hyb" = "混合";
+/* HybFly */
+"HybFly" = "混合飞行";
+/* description connection idle state */
+"idle" = "空闲";
+/* Warning displayed if location is inaccurate or old */
+"Inaccurate or old location information" = "不准确或过时的位置信息";
+/* certificate error message */
+"incorrect file or passphrase" = "文件或密码不正确";
+/* Display for incorrect inline config */
+"Inline Configuration incorrect" = "内联配置不正确";
+/* Display for incorrectly encoded inline config */
+"Inline Configuration incorrectly encoded" = "内联配置编码不正确";
+/* Display for config without parameters */
+"Inline Configuration missing parameters" = "内联配置缺少参数";
+/* Display after processing inline config */
+"Inline Configuration successfully processed" = "内联配置处理成功";
+/* friend leaves region verb */
+"leaves" = "离开";
+/* Display when leaving region (region name follows) */
+"Leaving" = "离开";
+/* Header of an alert message regarding a location */
+"Location" = "位置";
+/* Location copied to clipboard */
+"Location copied to clipboard" = "位置已复制到剪贴板";
+/* indicates a locked configuration */
+"locked" = "已锁定";
+/* Manual */
+"Manual" = "手动";
+/* Title map interaction */
+"Map Interaction" = "地图交互";
+/* Move */
+"Move" = "移动";
+/* Mute */
+"Mute" = "静音";
+/* No button title */
+"No" = "否";
+/* dummy for missing content */
+"no content available" = "无可用内容";
+/* Warning displayed if not location available */
+"No location available" = "无可用位置";
+/* No location recorded indication */
+"No location recorded" = "未记录位置";
+/* No or empty tour list received from backend */
+"No or empty tour list received from backend" = "未从后端收到旅程列表或列表为空";
+/* No pressure available */
+"No pressure available" = "无可用压力数据";
+/* Display after trying to process a file */
+"no url specified" = "未指定 URL";
+/* Alert message header for notification messages */
+"Notification" = "通知";
+/* Open button title */
+"Open" = "打开";
+/* temporary display while opening URL */
+"opening URL" = "正在打开 URL";
+/* OSM */
+"OSM" = "开放状态管理模块";
+/* Alert content for connection change warning */
+"Please be aware your stored waypoints and locations will be deleted on this device for privacy reasons. Please backup before." = "请注意，出于隐私原因，您在此设备上存储的航点和位置将被删除。请提前备份。";
+/* "Please keep OwnTracks running to ensure the desired functionality" */
+"Please keep OwnTracks running to ensure the desired functionality" = "请保持 OwnTracks 运行以确保所需的功能";
+/* Alert header regarding protocol input */
+"Protocol invalid" = "协议无效";
+/* Alert content regarding protocol input */
+"Protocol may be 3 for MQTT V3.1 or 4 for MQTT V3.1.1 or 5 for MQTT V5" = "协议可以是 MQTT V3.1 的 3，MQTT V3.1.1 的 4，或 MQTT V5 的 5";
+/* content of an alert message regarding user publish */
+"publish queued on user request" = "已根据用户请求将发布排队";
+/* Quiet */
+"Quiet" = "安静";
+/* Header of an alert message regarding circular region */
+"Region" = "区域";
+/* Remove button title */
+"Remove" = "消除";
+/* Requesting tour */
+"Requesting tour" = "请求参观";
+/* Requesting tour list */
+"Requesting tour list" = "正在请求旅程列表";
+/* temporary display while resolving address */
+"resolving..." = "正在解析...";
+/* Alert message header for Request Response */
+"Response" = "响应";
+/* Title Revgeo */
+"Reverse Geocoding Address Resolution" = "逆地理编码地址解析";
+/* Sat */
+"Sat" = "卫星";
+/* Send button title */
+"Send" = "发送";
+/* Send location now */
+"Send location now" = "立即发送位置";
+/* content of an alert message regarding card */
+"set and sent to backend" = "已设置并发送到后端";
+/* Set POI buttonSet POI title */
+"Set POI" = "设置兴趣点";
+/* Set POI with image button */
+"Set POI with image" = "使用图像设置 POI";
+/* Set tag button */
+"Set tag" = "设置标签";
+/* Set Tag title */
+"Set Tag" = "设置标签";
+/* Settings screen title */
+"Settings" = "设置";
+/* Header of an alert message regarding missing setup */
+"Setup" = "设置";
+/* MQTT Description Text */
+"Setup your own OwnTracks server for full privacy protection. More Info on https://owntracks.org/booklet" = "设置您自己的 OwnTracks 服务器以获得全面的隐私保护。更多信息请访问 https://owntracks.org/booklet";
+/* Significant */
+"Significant" = "重要";
+/* HTTP Description Text */
+"Similar to MQTT mode, except data transmission uses HTTP, not MQTT." = "与 MQTT 模式类似，但数据传输使用 HTTP，而非 MQTT。";
+/* Std */
+"Std" = "标准";
+/* Display when file processing succeeds */
+"successfully processed" = "处理成功";
+/* Shortcut Switch to Manual Monitoring Mode */
+"Switch to Manual Monitoring Mode" = "切换到手动监控模式";
+/* Shortcut Switch to Move Monitoring Monitoring Mode */
+"Switch to Move Monitoring Mode" = "切换到移动监控模式";
+/* Shortcut Switch to Quiet Monitoring Mode */
+"Switch to Quiet Monitoring Mode" = "切换到安静监控模式";
+/* Shortcut Switch to Significant Changes Monitoring Mode */
+"Switch to Significant Changes Monitoring Mode" = "切换到重大变化监控模式";
+/* Table is empty */
+"Table is empty" = "表格为空";
+/* Heading for certificate error message */
+"TLS Client Certificate" = "TLS 客户端证书";
+/* Warning displayed if necessary settings are missing */
+"To publish your location userID and deviceID must be set" = "要发布您的位置，必须设置用户ID和设备ID";
+/* Topic copied to clipboard */
+"Topic copied to clipboard" = "主题已复制到剪贴板";
+/* Tour created */
+"Tour created" = "旅程已创建";
+/* Tour deleted */
+"Tour deleted" = "行程已删除";
+/* Tour list received */
+"Tour list received" = "已收到旅程列表";
+/* Tour list request timed out */
+"Tour list request timed out" = "旅程列表请求超时";
+/* Tour request timed out */
+"Tour request timed out" = "游览请求超时";
+/* Tours list header */
+"Tours" = "旅程";
+/* Tours status header */
+"Tours status" = "旅游状态";
+/* Tours status header */
+"Tours Status" = "旅程状态";
+/* Alert header regarding TrackerID input */
+"TrackerID invalid" = "TrackerID 无效";
+/* Alert content regarding TrackerID input */
+"TrackerID may be empty or up to 2 characters long" = "TrackerID 可以为空或最多2个字符长";
+/* Alert content regarding TrackerID input */
+"TrackerID may contain alphanumeric characters only" = "TrackerID 只能包含字母数字字符";
+/* Battery status unkown */
+"unknown" = "未知";
+/* Display after entering an unknown scheme in url */
+"unknown scheme in url" = "URL 中未知方案";
+/* description connection unknown state */
+"unknown state" = "未知状态";
+/* Display for unknown url path */
+"unknown url path" = "未知 URL 路径";
+/* Battery status unplugged */
+"unplugged" = "未插入";
+/* URL copied to Clipboard */
+"URL copied to Clipboard" = "URL 已复制到剪贴板";
+/* webView didFailLoadWithError display */
+"webView didFailLoadWithError" = "webView 加载失败并出现错误";
+/* Please Note Text */
+"When switching between modes, all OwnTracks data will be deleted for privacy reasons." = "切换模式时，所有 OwnTracks 数据将因隐私原因被删除。";
+/* Yes button title */
+"Yes" = "是";
+/* You cannot use background fetch */
+"You cannot use background fetch" = "您无法使用后台抓取";
+/* You disabled background fetch */
+"You disabled background fetch" = "您已禁用后台抓取";
+/* Text explaining the Setup */
+"You need to setup your own OwnTracks server and edit your configuration for full privacy protection. Detailed info on https://owntracks.org/booklet" = "您需要设置自己的 OwnTracks 服务器并编辑您的配置以获得全面的隐私保护。详细信息请访问 https://owntracks.org/booklet";
+ " P e r f i l   V o c a l   &   V o z e s   E x t e r n a s "   =   " V o c a l   P r o f i l e   &   E x t e r n a l   V o i c e s " ; 
+ " N � o   C a l i b r a d a "   =   " N o t   C a l i b r a t e d " ; 
+ " C a l i b r e   a   f r e q u � n c i a   f u n d a m e n t a l   d a   s u a   v o z   ( F 0   P i t c h )   p a r a   i d e n t i f i c a r   q u a n d o   u m a   v o z   d i f e r e n t e   o u   e x t e r n a   e s t i v e r   f a l a n d o   n o   a m b i e n t e . "   =   " C a l i b r a t e   y o u r   v o i c e   f u n d a m e n t a l   f r e q u e n c y   ( F 0   P i t c h )   t o   i d e n t i f y   w h e n   a   d i f f e r e n t   o r   e x t e r n a l   v o i c e   i s   s p e a k i n g   i n   t h e   e n v i r o n m e n t . " ; 
+ " C a l i b r a r   A s s i n a t u r a   V o c a l   ( 4 . 5 s ) "   =   " C a l i b r a t e   V o i c e   S i g n a t u r e   ( 4 . 5 s ) " ; 
+ " R e c a l i b r a r   V o z   ( 4 . 5 s ) "   =   " R e c a l i b r a t e   V o i c e   ( 4 . 5 s ) " ; 
+ " A l e r t a   d e   V o z   E x t e r n a   /   D e s c o n h e c i d a "   =   " E x t e r n a l   /   U n k n o w n   V o i c e   A l e r t " ; 
+ " D i s p a r a   e m e r g � n c i a   s e   u m a   v o z   d e   o u t r a   p e s s o a   f o r   d e t e c t a d a   c o n t i n u a d a m e n t e . "   =   " T r i g g e r s   e m e r g e n c y   i f   a n o t h e r   p e r s o n ' s   v o i c e   i s   c o n t i n u o u s l y   d e t e c t e d . " ; 
+ " V o z   N � o   C a l i b r a d a "   =   " V o i c e   N o t   C a l i b r a t e d " ; 
+ " P o r   f a v o r ,   r e a l i z e   a   c a l i b r a � � o   d a   s u a   a s s i n a t u r a   v o c a l   a n t e s   d e   a t i v a r   o   a l e r t a   d e   v o z e s   e x t e r n a s . "   =   " P l e a s e   c a l i b r a t e   y o u r   v o i c e   s i g n a t u r e   b e f o r e   e n a b l i n g   e x t e r n a l   v o i c e   a l e r t s . " ; 
+ " C a l i b r a r   A g o r a "   =   " C a l i b r a t e   N o w " ; 
+ " C a l i b r a d a   ( % . 0 f - % . 0 f   H z ) "   =   " C a l i b r a t e d   ( % . 0 f - % . 0 f   H z ) " ; 
+ " C a l i b r a n d o   S u a   V o z "   =   " C a l i b r a t i n g   Y o u r   V o i c e " ; 
+ " P o r   f a v o r ,   f a l e   n o r m a l m e n t e   ( e x :   c o n t e   d e   1   a   1 0   o u   f a l e   f r a s e s   d o   d i a   a   d i a )   p a r a   q u e   o   S e n t i n e l a   a p r e n d a   s e u   t o m   d e   v o z   ( p i t c h   b a s e l i n e ) . "   =   " P l e a s e   s p e a k   n o r m a l l y   ( e . g . ,   c o u n t   f r o m   1   t o   1 0   o r   s p e a k   e v e r y d a y   p h r a s e s )   s o   S e n t i n e l   l e a r n s   y o u r   p i t c h   b a s e l i n e . " ; 
+ " O u v i n d o   t o m   d e   v o z . . .   % d % % "   =   " L i s t e n i n g   t o   v o i c e   p i t c h . . .   % d % % " ; 
+ " N � o   f o i   p o s s � v e l   c a p t a r   a   v o z   c o m   c l a r e z a .   F a l e   e m   t o m   n o r m a l   e m   u m   a m b i e n t e   q u i e t o   e   t e n t e   n o v a m e n t e . "   =   " C o u l d   n o t   c a p t u r e   v o i c e   c l e a r l y .   S p e a k   i n   a   n o r m a l   t o n e   i n   a   q u i e t   e n v i r o n m e n t   a n d   t r y   a g a i n . " ; 
+ " A s s i n a t u r a   v o c a l   g r a v a d a   c o m   s u c e s s o !   F a i x a :   % . 0 f   H z   -   % . 0 f   H z "   =   " V o i c e   s i g n a t u r e   r e c o r d e d   s u c c e s s f u l l y !   R a n g e :   % . 0 f   H z   -   % . 0 f   H z " ; 
+ " V o z   e x t e r n a / d i f e r e n t e   d e t e c t a d a "   =   " E x t e r n a l / d i f f e r e n t   v o i c e   d e t e c t e d " ; 
+ 
+ " G a t i l h o   d e   I m p a c t o s   R e p e t i d o s   ( P e s s o a s   N � o - V e r b a i s ) "   =   " R e p e a t e d   I m p a c t s   T r i g g e r   ( N o n - V e r b a l ) " ; 
+ " E m   m o d o   d e   e s p e r a ,   d i s p a r a   e m e r g � n c i a   a u t o m a t i c a m e n t e   a o   d e t e c t a r   a   q u a n t i d a d e   s e l e c i o n a d a   d e   i m p a c t o s ,   s e m   e x i g i r   c o n f i r m a � � o   v o c a l . "   =   " I n   s t a n d b y   m o d e ,   a u t o m a t i c a l l y   t r i g g e r s   e m e r g e n c y   u p o n   d e t e c t i n g   s e l e c t e d   c o u n t   o f   i m p a c t s ,   w i t h o u t   r e q u i r i n g   v o c a l   c o n f i r m a t i o n . " ; 
+ " 2   I m p a c t o s "   =   " 2   I m p a c t s " ; 
+ " 3   ( P a d r � o ) "   =   " 3   ( D e f a u l t ) " ; 
+ " 4   I m p a c t o s "   =   " 4   I m p a c t s " ; 
+ " 5   I m p a c t o s "   =   " 5   I m p a c t s " ; 
+ " S e q u � n c i a   d e   % d   i m p a c t o s   e m   a m b i e n t e   s i l e n c i o s o   ( P e s s o a   N � o - V e r b a l   /   E m e r g � n c i a   F � s i c a ) "   =   " S e q u e n c e   o f   % d   i m p a c t s   i n   q u i e t   e n v i r o n m e n t   ( N o n - V e r b a l   /   P h y s i c a l   E m e r g e n c y ) " ; 
+ 
+ " J a n e l a   d e   T e m p o   e m   E s p e r a "   =   " S t a n d b y   A t t e n t i o n   W i n d o w " ; 
+ " T e m p o   l i m i t e   e m   m o d o   d e   a t e n � � o   a g u a r d a n d o   c o n f i r m a � � o   p o r   v o z   o u   n o v o s   i m p a c t o s   a n t e s   d e   c a n c e l a r   o   a l e r t a . "   =   " T i m e   l i m i t   i n   a t t e n t i o n   m o d e   w a i t i n g   f o r   v o i c e   c o n f i r m a t i o n   o r   n e w   i m p a c t s   b e f o r e   c a n c e l i n g   t h e   a l e r t . " ; 
+ " 1 5 s "   =   " 1 5 s " ; 
+ " 3 0 s "   =   " 3 0 s " ; 
+ " 6 0 s   ( P a d r � o ) "   =   " 6 0 s   ( D e f a u l t ) " ; 
+ " 9 0 s "   =   " 9 0 s " ; 
+ " 1 2 0 s "   =   " 1 2 0 s " ; 
+ 
+"Perfil Vocal & Vozes Externas" = "Vocal Profile & External Voices";
+"Não Calibrada" = "Not Calibrated";
+"Calibre a frequência fundamental da sua voz (F0 Pitch) para identificar quando uma voz diferente ou externa estiver falando no ambiente." = "Calibrate your voice fundamental frequency (F0 Pitch) to identify when a different or external voice is speaking in the environment.";
+"Calibrar Assinatura Vocal (4.5s)" = "Calibrate Voice Signature (4.5s)";
+"Recalibrar Voz (4.5s)" = "Recalibrate Voice (4.5s)";
+"Alerta de Voz Externa / Desconhecida" = "External / Unknown Voice Alert";
+"Dispara emergência se uma voz de outra pessoa for detectada continuadamente." = "Triggers emergency if another person's voice is continuously detected.";
+"Voz Não Calibrada" = "Voice Not Calibrated";
+"Por favor, realize a calibração da sua assinatura vocal antes de ativar o alerta de vozes externas." = "Please calibrate your voice signature before enabling external voice alerts.";
+"Calibrar Agora" = "Calibrate Now";
+"Calibrada (%.0f-%.0f Hz)" = "Calibrated (%.0f-%.0f Hz)";
+"Calibrando Sua Voz" = "Calibrating Your Voice";
+"Por favor, fale normalmente (ex: conte de 1 a 10 ou fale frases do dia a dia) para que o Sentinela aprenda seu tom de voz (pitch baseline)." = "Please speak normally (e.g., count from 1 to 10 or speak everyday phrases) so Sentinel learns your pitch baseline.";
+"Ouvindo tom de voz... %d%%" = "Listening to voice pitch... %d%%";
+"Não foi possível captar a voz com clareza. Fale em tom normal em um ambiente quieto e tente novamente." = "Could not capture voice clearly. Speak in a normal tone in a quiet environment and try again.";
+"Assinatura vocal gravada com sucesso! Faixa: %.0f Hz - %.0f Hz" = "Voice signature recorded successfully! Range: %.0f Hz - %.0f Hz";
+"Voz externa/diferente detectada" = "External/different voice detected";
+"Gatilho de Impactos Repetidos (Pessoas Não-Verbais)" = "Repeated Impacts Trigger (Non-Verbal)";
+"Em modo de espera, dispara emergência automaticamente ao detectar a quantidade selecionada de impactos, sem exigir confirmação vocal." = "In standby mode, automatically triggers emergency upon detecting selected count of impacts, without requiring vocal confirmation.";
+"2 Impactos" = "2 Impacts";
+"3 (Padrão)" = "3 (Default)";
+"4 Impactos" = "4 Impacts";
+"5 Impactos" = "5 Impacts";
+"Sequência de %d impactos em ambiente silencioso (Pessoa Não-Verbal / Emergência Física)" = "Sequence of %d impacts in quiet environment (Non-Verbal / Physical Emergency)";
+"Janela de Tempo em Espera" = "Standby Attention Window";
+"Tempo limite em modo de atenção aguardando confirmação por voz ou novos impactos antes de cancelar o alerta." = "Time limit in attention mode waiting for voice confirmation or new impacts before canceling the alert.";
+"1 min (Padrão)" = "1 min (Default)";
+"5 min" = "5 min";
+"10 min" = "10 min";
+"20 min" = "20 min";
+"30 min" = "30 min";
+"1 min" = "1 min";

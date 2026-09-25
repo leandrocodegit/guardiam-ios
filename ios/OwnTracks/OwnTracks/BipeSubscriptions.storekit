@@ -1,0 +1,145 @@
+{
+  "identifier" : "BipeSubscriptions",
+  "nonConsumableProducts" : [
+
+  ],
+  "nonRenewingSubscriptionProducts" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "pt_BR",
+    "_storefront" : "BRA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Send Message"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "BIPE_PLANOS_GROUP",
+      "localizations" : [
+        {
+          "customAppName" : "Bipe",
+          "displayName" : "Planos Bipe",
+          "locale" : "pt_BR"
+        }
+      ],
+      "name" : "Planos Bipe",
+      "products" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "14,90",
+          "familySharable" : false,
+          "groupLevel" : 1,
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "5 dispositivos, 30 waypoints, 10 rotinas, retenção 30 dias.",
+              "displayName" : "Start",
+              "locale" : "pt_BR"
+            }
+          ],
+          "productID" : "2_start",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "START",
+          "subscriptionGroupID" : "BIPE_PLANOS_GROUP",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "34,90",
+          "familySharable" : false,
+          "groupLevel" : 2,
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "15 dispositivos, 10 waypoints, 100 rotinas, retenção 60 dias.",
+              "displayName" : "Quantity",
+              "locale" : "pt_BR"
+            }
+          ],
+          "productID" : "2_quantity",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "QUANTITY",
+          "subscriptionGroupID" : "BIPE_PLANOS_GROUP",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "64,90",
+          "familySharable" : false,
+          "groupLevel" : 3,
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "40 dispositivos, 1000 waypoints, 500 rotinas, retenção 365 dias.",
+              "displayName" : "Super",
+              "locale" : "pt_BR"
+            }
+          ],
+          "productID" : "2_super",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "SUPER",
+          "subscriptionGroupID" : "BIPE_PLANOS_GROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
