@@ -483,13 +483,11 @@
 				84C3F45C2CEF904F004DB332 /* AssetsLibrary.framework in Frameworks */,
 				8411B832189FDB140019D2D6 /* CoreData.framework in Frameworks */,
 				8411B830189FDB140019D2D6 /* UIKit.framework in Frameworks */,
-				84ED67882F1E95110013A265 /* Sodium in Frameworks */,
 				8411B82C189FDB140019D2D6 /* Foundation.framework in Frameworks */,
 				84ED67922F1E9A0E0013A265 /* DSJSONSchemaValidation in Frameworks */,
 				84ED67862F1E95110013A265 /* Clibsodium in Frameworks */,
 				84A4002B2F8ABBFA00340475 /* MQTTClient in Frameworks */,
 				84B1BE0012F800001000007 /* AppAuth in Frameworks */,
-				6ABFBB2C3016436400E5BFF1 /* (null) in Frameworks */,
 				84C3F45E2CF09F9B004DB332 /* PhotosUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -823,7 +821,6 @@
 			packageProductDependencies = (
 				84A4002A2F8ABBFA00340475 /* MQTTClient */,
 				84ED67852F1E95110013A265 /* Clibsodium */,
-				84ED67872F1E95110013A265 /* Sodium */,
 				84ED67912F1E9A0E0013A265 /* DSJSONSchemaValidation */,
 				84B1BE0012F800001000008 /* AppAuth */,
 				6ABFE15F3016BE78000DCACE /* FirebaseMessaging */,
