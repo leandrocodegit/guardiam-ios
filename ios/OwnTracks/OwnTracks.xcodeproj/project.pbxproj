@@ -16,7 +16,6 @@
 		BIPE00000000000000000203 /* audios in Resources */ = {isa = PBXBuildFile; fileRef = BIPE00000000000000000201 /* audios */; };
 		6AB1BE0012F80000100000A1 /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1BE0012F80000100000A2 /* PermissionsViewController.swift */; };
 		6AB1BE0012F80000100000C1 /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1BE0012F80000100000C2 /* QRCodeScannerViewController.swift */; };
-		6ABFBB2C3016436400E5BFF1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		6ABFE1603016BE78000DCACE /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6ABFE15F3016BE78000DCACE /* FirebaseMessaging */; };
 		77B1BE0012F8000010000001 /* BiometricAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B1BE0012F8000010000002 /* BiometricAuthManager.swift */; };
 		77B1BE0012F8000010000003 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B1BE0012F8000010000004 /* StoreKitManager.swift */; };
@@ -467,7 +466,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABFE1603016BE78000DCACE /* FirebaseMessaging in Frameworks */,
 				84929F0B20AAC0D000227D00 /* WebKit.framework in Frameworks */,
 				8488CFDF25A45CC3000AFEE2 /* Security.framework in Frameworks */,
 				84B0CDAD239E2EFA00CE9305 /* BackgroundTasks.framework in Frameworks */,
@@ -488,6 +486,7 @@
 				84ED67862F1E95110013A265 /* Clibsodium in Frameworks */,
 				84A4002B2F8ABBFA00340475 /* MQTTClient in Frameworks */,
 				84B1BE0012F800001000007 /* AppAuth in Frameworks */,
+				6ABFE1603016BE78000DCACE /* FirebaseMessaging in Frameworks */,
 				84C3F45E2CF09F9B004DB332 /* PhotosUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1919,7 +1918,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 12.16.0;
+				minimumVersion = 10.20.0;
 			};
 		};
 		84B1BE0012F800001000009 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
