@@ -1960,7 +1960,7 @@
 		};
 		84ED67902F1E9A0E0013A265 /* XCRemoteSwiftPackageReference "JSONSchemaValidation" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dashevo/JSONSchemaValidation.git";
+			repositoryURL = "https://github.com/vlas-voloshin/JSONSchemaValidation.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.7;
