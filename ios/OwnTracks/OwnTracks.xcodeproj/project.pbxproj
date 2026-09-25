@@ -121,7 +121,6 @@
 		84E8A1891BB94782002518AA /* Setting+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A17F1BB94782002518AA /* Setting+CoreDataProperties.m */; };
 		84E8A18A1BB94782002518AA /* Friend+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A1811BB94782002518AA /* Friend+CoreDataProperties.m */; };
 		84E8A18D1BB94782002518AA /* Region+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A1871BB94782002518AA /* Region+CoreDataProperties.m */; };
-		84ED67862F1E95110013A265 /* Clibsodium in Frameworks */ = {isa = PBXBuildFile; productRef = 84ED67852F1E95110013A265 /* Clibsodium */; };
 		84ED67882F1E95110013A265 /* Sodium in Frameworks */ = {isa = PBXBuildFile; productRef = 84ED67872F1E95110013A265 /* Sodium */; };
 		84ED67922F1E9A0E0013A265 /* DSJSONSchemaValidation in Frameworks */ = {isa = PBXBuildFile; productRef = 84ED67912F1E9A0E0013A265 /* DSJSONSchemaValidation */; };
 		84FAEA7225F01DA100DCD479 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FAEA7125F01DA100DCD479 /* Launch Screen.storyboard */; };
@@ -483,7 +482,7 @@
 				8411B830189FDB140019D2D6 /* UIKit.framework in Frameworks */,
 				8411B82C189FDB140019D2D6 /* Foundation.framework in Frameworks */,
 				84ED67922F1E9A0E0013A265 /* DSJSONSchemaValidation in Frameworks */,
-				84ED67862F1E95110013A265 /* Clibsodium in Frameworks */,
+				84ED67882F1E95110013A265 /* Sodium in Frameworks */,
 				84A4002B2F8ABBFA00340475 /* MQTTClient in Frameworks */,
 				84B1BE0012F800001000007 /* AppAuth in Frameworks */,
 				6ABFE1603016BE78000DCACE /* FirebaseMessaging in Frameworks */,
@@ -819,7 +818,7 @@
 			name = OwnTracks;
 			packageProductDependencies = (
 				84A4002A2F8ABBFA00340475 /* MQTTClient */,
-				84ED67852F1E95110013A265 /* Clibsodium */,
+				84ED67872F1E95110013A265 /* Sodium */,
 				84ED67912F1E9A0E0013A265 /* DSJSONSchemaValidation */,
 				84B1BE0012F800001000008 /* AppAuth */,
 				6ABFE15F3016BE78000DCACE /* FirebaseMessaging */,
@@ -1982,11 +1981,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 84B1BE0012F800001000009 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
 			productName = AppAuth;
-		};
-		84ED67852F1E95110013A265 /* Clibsodium */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 84ED67842F1E95110013A265 /* XCRemoteSwiftPackageReference "swift-sodium" */;
-			productName = Clibsodium;
 		};
 		84ED67872F1E95110013A265 /* Sodium */ = {
 			isa = XCSwiftPackageProductDependency;
