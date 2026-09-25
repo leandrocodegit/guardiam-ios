@@ -359,10 +359,7 @@ import CoreData
             return
         }
 
-        guard let moc = managedObjectContext ?? CoreData.sharedInstance().mainMOC else {
-            showError("Armazenamento local (CoreData) indisponível.")
-            return
-        }
+        let moc = managedObjectContext ?? CoreData.sharedInstance().mainMOC
 
         setLoading(true, status: "Registrando dispositivo...")
 
