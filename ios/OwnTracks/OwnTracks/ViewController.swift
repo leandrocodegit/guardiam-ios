@@ -699,6 +699,12 @@ import ActivityKit
     @objc func dismissModalViewController() {
         dismiss(animated: true, completion: nil)
     }
+
+    @objc func setCenter(annotation: Any) {
+        if let ann = annotation as? MKAnnotation {
+            mapView?.setCenter(ann.coordinate, animated: true)
+        }
+    }
 }
 
 // MARK: - BipeEmergencyHelper (Suporte ao Botão de Ação, Atalhos e SOS)
