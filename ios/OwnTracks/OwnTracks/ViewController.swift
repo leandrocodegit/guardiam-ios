@@ -731,9 +731,8 @@ import ActivityKit
             }
             
             let moc = CoreData.sharedInstance().mainMOC
-            let userName = Settings.string(forKey: "user_preference", inMOC: moc) ?? "user"
-            let deviceId = Settings.string(forKey: "deviceid_preference", inMOC: moc) ?? "device"
-            let bipeTopic = "owntracks/\(userName)/\(deviceId)/bipe"
+            let clientId = Settings.string(forKey: "clientid_preference", inMOC: moc) ?? "client"
+            let bipeTopic = "owntracks/\(clientId)/bipe"
             
             let nickname = Settings.string(forKey: "device_name_preference", inMOC: moc) ?? ""
             let face = Settings.string(forKey: "icon", inMOC: moc) ?? ""
@@ -743,7 +742,7 @@ import ActivityKit
                 "_type": type,
                 "type": type,
                 "status": "EMERGENCY",
-                "deviceId": deviceId,
+                "clientId": clientId,
                 "nickname": nickname,
                 "tst": Int64(Date().timeIntervalSince1970)
             ]

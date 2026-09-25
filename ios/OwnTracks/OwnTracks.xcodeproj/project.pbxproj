@@ -91,6 +91,7 @@
 		84B1BE0012F800001000001 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BE0012F800001000002 /* AuthManager.swift */; };
 		84B1BE0012F800001000003 /* SetupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BE0012F800001000004 /* SetupService.swift */; };
 		84B1BE0012F800001000005 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BE0012F800001000006 /* LoginViewController.swift */; };
+		84B1BE0012F800001000009 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BE0012F80000100000A /* SetupViewController.swift */; };
 		84B1BE0012F800001000007 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1BE0012F800001000008 /* AppAuth */; };
 		84B1BE0012F8000010000101 /* BipeAlertActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BE0012F8000010000102 /* BipeAlertActivityAttributes.swift */; };
 		84B1BE0012F8000010000103 /* BipeLiveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BE0012F8000010000104 /* BipeLiveActivityWidget.swift */; };
@@ -343,6 +344,7 @@
 		84B1BE0012F800001000002 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		84B1BE0012F800001000004 /* SetupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupService.swift; sourceTree = "<group>"; };
 		84B1BE0012F800001000006 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84B1BE0012F80000100000A /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		84B1BE0012F8000010000102 /* BipeAlertActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BipeAlertActivityAttributes.swift; sourceTree = "<group>"; };
 		84B1BE0012F8000010000104 /* BipeLiveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BipeLiveActivityWidget.swift; sourceTree = "<group>"; };
 		84B1BE0012F8000010000106 /* BipeLiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BipeLiveActivityManager.swift; sourceTree = "<group>"; };
@@ -613,6 +615,7 @@
 				99B1BE0012F800001000002 /* GoogleService-Info.plist */,
 				84B1BE0012F800001000004 /* SetupService.swift */,
 				84B1BE0012F800001000006 /* LoginViewController.swift */,
+				84B1BE0012F80000100000A /* SetupViewController.swift */,
 				84B1BE0012F80000100009A /* BipeConfirmationViewController.swift */,
 				77B1BE0012F8000010000002 /* BiometricAuthManager.swift */,
 		77B1BE0012F8000010000004 /* StoreKitManager.swift */,
@@ -1129,6 +1132,7 @@
 				84B1BE0012F800001000001 /* AuthManager.swift in Sources */,
 				84B1BE0012F800001000003 /* SetupService.swift in Sources */,
 				84B1BE0012F800001000005 /* LoginViewController.swift in Sources */,
+				84B1BE0012F800001000009 /* SetupViewController.swift in Sources */,
 				84B1BE0012F800001000099 /* BipeConfirmationViewController.swift in Sources */,
 				77B1BE0012F8000010000001 /* BiometricAuthManager.swift in Sources */,
 		77B1BE0012F8000010000003 /* StoreKitManager.swift in Sources */,
@@ -1708,7 +1712,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 27.0.0;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1753,7 +1757,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

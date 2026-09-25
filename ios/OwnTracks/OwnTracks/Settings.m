@@ -1059,22 +1059,16 @@ static SettingsDefaults *defaults;
     NSString *topic = [self stringForKey:@"topic_preference" inMOC:context];
             
     if (!topic || [topic isEqualToString:@""]) {
-        NSString *userId = [self theUserIdInMOC:context];
-        NSString *deviceId = [self theDeviceIdInMOC:context];
-
-        if (!userId || [userId isEqualToString:@""]) {
-            userId = @"user";
+        NSString *clientId = [self theClientIdInMOC:context];
+        if (!clientId || [clientId isEqualToString:@""]) {
+            clientId = @"client";
         }
-        if (!deviceId || [deviceId isEqualToString:@""]) {
-            deviceId = @"device";
-        }
-
-        topic = [NSString stringWithFormat:@"owntracks/%@/%@", userId, deviceId];
+        topic = [NSString stringWithFormat:@"owntracks/%@", clientId];
     } else {
-        topic = [topic stringByReplacingOccurrencesOfString:@"%u"
-                                                 withString:[Settings theUserIdInMOC:context]];
-        topic = [topic stringByReplacingOccurrencesOfString:@"%d"
-                                                 withString:[Settings theDeviceIdInMOC:context]];
+        NSString *clientId = [Settings theClientIdInMOC:context];
+        topic = [topic stringByReplacingOccurrencesOfString:@"%c" withString:clientId];
+        topic = [topic stringByReplacingOccurrencesOfString:@"%u" withString:clientId];
+        topic = [topic stringByReplacingOccurrencesOfString:@"%d" withString:clientId];
     }
     return topic;
 }
@@ -1090,66 +1084,33 @@ static SettingsDefaults *defaults;
 }
 
 + (NSString *)theClientIdInMOC:(NSManagedObjectContext *)context {
-    NSString *clientId;
-    clientId = [self stringForKey:@"clientid_preference" inMOC:context];
-    
+    NSString *clientId = [self stringForKey:@"clientid_preference" inMOC:context];
     if (!clientId || [clientId isEqualToString:@""]) {
-        clientId = [self theIdInMOC:context];
+        clientId = [self stringForKey:@"user_preference" inMOC:context];
+    }
+    if (!clientId || [clientId isEqualToString:@""]) {
+        clientId = @"client";
     }
     return clientId;
 }
 
 + (NSString *)theIdInMOC:(NSManagedObjectContext *)context {
-    NSString *theId;
-    
-    NSString *userId = [self theUserIdInMOC:context];
-    NSString *deviceId = [self theDeviceIdInMOC:context];
-
-    if (!userId || [userId isEqualToString:@""]) {
-        if (!deviceId || [deviceId isEqualToString:@""]) {
-            theId = [UIDevice currentDevice].name;
-        } else {
-            theId = deviceId;
-        }
-    } else {
-        if (!deviceId || [deviceId isEqualToString:@""]) {
-            theId = userId;
-        } else {
-            theId = [NSString stringWithFormat:@"%@%@",
-                     userId,
-                     deviceId];
-        }
-    }
-    NSCharacterSet *allowed = [NSCharacterSet alphanumericCharacterSet];
-    NSCharacterSet *notAllowed = allowed.invertedSet;
-    theId = [[theId componentsSeparatedByCharactersInSet:notAllowed]
-             componentsJoinedByString:@""];
-
-    return theId;
+    return [self theClientIdInMOC:context];
 }
 
 + (NSString *)theDeviceIdInMOC:(NSManagedObjectContext *)context {
-    NSString *deviceId = [self stringForKey:@"deviceid_preference" inMOC:context];
-    if (!deviceId || deviceId.length == 0) {
-        deviceId = ([UIDevice currentDevice].identifierForVendor).UUIDString;
-    }
-    return deviceId;
+    return [self theClientIdInMOC:context];
 }
 
 + (NSString *)theSubscriptionsInMOC:(NSManagedObjectContext *)context {
     NSString *generalTopic = [self theGeneralTopicInMOC:context];
-    NSString *userId = [Settings theUserIdInMOC:context];
-    NSString *deviceId = [Settings theDeviceIdInMOC:context];
-    
-    if (!userId || userId.length == 0) {
-        userId = @"user";
-    }
-    if (!deviceId || deviceId.length == 0) {
-        deviceId = @"device";
+    NSString *clientId = [Settings theClientIdInMOC:context];
+    if (!clientId || clientId.length == 0) {
+        clientId = @"client";
     }
 
-    NSString *userWildcardTopic = [NSString stringWithFormat:@"owntracks/%@/+", userId];
-    NSString *eventReceiveTopic = [NSString stringWithFormat:@"owntracks/%@/%@/event/receive", userId, deviceId];
+    NSString *userWildcardTopic = [NSString stringWithFormat:@"owntracks/%@/+", clientId];
+    NSString *eventReceiveTopic = [NSString stringWithFormat:@"owntracks/%@/event/receive", clientId];
     NSString *cmdTopic = [NSString stringWithFormat:@"%@/cmd", generalTopic];
     NSString *callTopic = [NSString stringWithFormat:@"%@/call", generalTopic];
 
@@ -1167,8 +1128,9 @@ static SettingsDefaults *defaults;
         for (NSString *item in items) {
             if (item.length > 0) {
                 NSString *replaced = item;
-                replaced = [replaced stringByReplacingOccurrencesOfString:@"%u" withString:userId];
-                replaced = [replaced stringByReplacingOccurrencesOfString:@"%d" withString:deviceId];
+                replaced = [replaced stringByReplacingOccurrencesOfString:@"%u" withString:clientId];
+                replaced = [replaced stringByReplacingOccurrencesOfString:@"%d" withString:clientId];
+                replaced = [replaced stringByReplacingOccurrencesOfString:@"%c" withString:clientId];
                 [topicSet addObject:replaced];
             }
         }
@@ -1177,8 +1139,9 @@ static SettingsDefaults *defaults;
     NSMutableArray *resultTopics = [NSMutableArray array];
     for (NSString *t in topicSet) {
         NSString *replaced = t;
-        replaced = [replaced stringByReplacingOccurrencesOfString:@"%u" withString:userId];
-        replaced = [replaced stringByReplacingOccurrencesOfString:@"%d" withString:deviceId];
+        replaced = [replaced stringByReplacingOccurrencesOfString:@"%u" withString:clientId];
+        replaced = [replaced stringByReplacingOccurrencesOfString:@"%d" withString:clientId];
+        replaced = [replaced stringByReplacingOccurrencesOfString:@"%c" withString:clientId];
         [resultTopics addObject:replaced];
     }
 

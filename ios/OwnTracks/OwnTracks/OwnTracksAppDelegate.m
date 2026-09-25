@@ -202,8 +202,12 @@
     [SetupService.shared startPushToStartTokenSyncListener];
     [SetupService.shared triggerTokenSyncImmediately];
     
-    // Inicia o aplicativo e o monitoramento diretamente (sem necessidade de login)
-    [self startOwnTracksMonitoring];
+    // Antes de abrir a tela inicial, verifica se o usuário concluiu o setup
+    if ([SetupService.shared isSetupCompleted]) {
+        [self startOwnTracksMonitoring];
+    } else {
+        [self presentSetupViewController];
+    }
     
     return YES;
 }
@@ -232,29 +236,27 @@
     [locationManager start];
 }
 
-- (void)presentLoginViewController {
-    OwnTracksLogDefault("[OwnTracksAppDelegate] presentLoginViewController");
+- (void)presentSetupViewController {
+    OwnTracksLogDefault("[OwnTracksAppDelegate] presentSetupViewController");
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        LoginViewController *loginVC = [[LoginViewController alloc] init];
-        loginVC.managedObjectContext = CoreData.sharedInstance.mainMOC;
-        loginVC.modalPresentationStyle = UIModalPresentationFullScreen;
+        SetupViewController *setupVC = [[SetupViewController alloc] init];
+        setupVC.managedObjectContext = CoreData.sharedInstance.mainMOC;
+        setupVC.modalPresentationStyle = UIModalPresentationFullScreen;
         
-        // Usa o mÃ©todo @objc wrapper â€” propriedades Swift de closure opcional nÃ£o sÃ£o acessÃ­veis via ObjC.
-        // O LoginViewController dispensa a si mesmo antes de chamar este bloco.
         __weak OwnTracksAppDelegate *weakSelf = self;
-        [loginVC setCompletionHandler:^{
+        [setupVC setCompletionHandler:^{
             OwnTracksLogDefault("[OwnTracksAppDelegate] Setup concluído — iniciando monitoramento");
             [weakSelf startOwnTracksMonitoring];
-            UIViewController *rootVC = weakSelf.window.rootViewController;
-            if ([rootVC respondsToSelector:@selector(loadAndroidSetupRoute)]) {
-                [rootVC performSelector:@selector(loadAndroidSetupRoute)];
-            }
         }];
         
         UIViewController *rootVC = self.window.rootViewController;
-        [rootVC presentViewController:loginVC animated:YES completion:nil];
+        [rootVC presentViewController:setupVC animated:YES completion:nil];
     });
+}
+
+- (void)presentLoginViewController {
+    [self presentSetupViewController];
 }
 
 #pragma mark - openURL (unified handler)

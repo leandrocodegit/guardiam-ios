@@ -55,6 +55,7 @@
 - (void)terminateSession;
 - (void)syncProcessing;
 - (void)startOwnTracksMonitoring;
+- (void)presentSetupViewController;
 - (void)presentLoginViewController;
 - (BOOL)isRegionInsecure:(nonnull NSString *)identifier;
 
