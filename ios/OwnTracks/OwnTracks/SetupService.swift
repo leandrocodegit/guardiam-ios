@@ -202,15 +202,11 @@ enum SetupError: LocalizedError {
             return
         }
         guard !cleanSenha.isEmpty else {
-            completion(false, "A senha é obrigatória.")
+            completion(false, "A senha (pergunta de código) é obrigatória.")
             return
         }
         guard !cleanContra.isEmpty else {
-            completion(false, "A contra-senha é obrigatória.")
-            return
-        }
-        guard cleanSenha == cleanContra else {
-            completion(false, "A senha e a contra-senha não conferem.")
+            completion(false, "A contra-senha (resposta de emergência) é obrigatória.")
             return
         }
 
